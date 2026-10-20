@@ -4,8 +4,8 @@ const sumBtn = document.getElementById("sumBtn");
 const result = document.getElementById("result");
 
 sumBtn.addEventListener("click", ()=> {
-    const total = (Number(num1.value) + Number(num2.value));
+    const total = Number(num1.value) + num2.value;
 
     result.textContent = `Resultado: ${total}`;
-    
+
 });
